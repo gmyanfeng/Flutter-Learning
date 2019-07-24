@@ -19,11 +19,13 @@ class MyApp extends StatelessWidget {
               colorBlendMode: BlendMode.colorBurn,
 
               repeat: ImageRepeat.repeat,
+//              fit: BoxFit.cover,
             ),
 
             width: 600,
             height: 900,
             color: Colors.lightBlue,
+
           ), //child
         ), //body
       ), //home
